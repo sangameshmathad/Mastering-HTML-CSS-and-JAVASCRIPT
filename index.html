@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bond Fitness</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+        body{
+           background-image: url(https://images.unsplash.com/photo-1588528402605-1f9d0eb7a6d6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80);
+           background-repeat: no-repeat;
+           background-attachment: fixed;
+           background-size: cover;
+        }
+        .main-container{
+            display: flex;
+           justify-content: flex-start;
+           
+        }
+        .form{
+            background-color: rgba(152, 152, 152, 0.429);
+            color: rgb(5, 5, 5);
+            margin-left: 250px;
+           margin-top: 50px;
+           font-family: sans-serif;
+        }
+
+        ul {
+            display: flex;
+            margin: 15px 10px;
+            padding: 0%;
+        }
+
+        li {
+            list-style: none;
+            padding-left: 25px;
+            margin-left: 15px;
+        }
+
+        a {
+            text-decoration: none;
+            color: rgb(143, 143, 143);
+        }
+
+        .left-side img {
+            float: right;
+        }
+        .form{
+            border: 2px solid black;
+            width: 300px;
+            height: fit-content;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+        }
+        h4,h5,h6{
+            text-align: center;
+        }
+        label address{
+            display: block;
+        }
+        input#name, #phone, #emergencyContact,#address{
+            width: 85%;
+            padding: 5px;
+            border-radius: 4px;
+            box-shadow: none;
+            margin: auto;
+        }
+        button{
+            display: block;
+            width: 150px;
+            margin: auto;
+            padding: 5px;
+            font-weight: bold;
+            justify-content: center;
+            align-items: center;
+        }
+        select{
+            width: 100%;
+            text-align: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Home</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">About Us</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Plans</a></li>
+            <li><a href="#" target="_blank" rel="noopener noreferrer">Photo gallary</a></li>
+        </ul>
+    </nav>
+    <main class="main-container">
+
+        <section class="right-side">
+            <div class="form">
+                <form action="" class="memberform">
+                    <h4 class="heading">Membership form</h4><br>
+                    <label for="name">Name :</label>
+                    <input type="text" name="name" id="name"><br><br>
+                    <label for="phone-number">Phone No :</label>
+                    <input type="number" name="mobile" id="phone"><br><br>
+                    <label for="sex">Gender :</label><br>
+                    <input type="radio" name="Male" id="gender">
+                    <label for="gender">Male</label>
+                    <input type="radio" name="Male" id="gender">
+                    <label for="gender">Female</label><br><br>
+                    <label for="emergencyContact">Emergency Contact No. :</label>
+                    <input type="number" name="emergencyContact" id="emergencyContact"><br><br>
+                    <label for="address">Address :</label>
+                    <textarea name="address" id="address" cols="30" rows="10"></textarea><br><br>
+                    <h5>Choose your plan :</h5><br>
+                    <select>
+                        <option value="plan 1 "> All-Gold</option>
+                        <option value="plan-2">Gym+cardio</option>
+                        <option value="plan-3">Yoga</option>
+                        <option value="plan-4">Zumba</option>
+                        <option value="plan-5">cross-fit</option>
+                    </select><br><br>
+                    <button type="submit"> Submit</button><br><br>
+                    <h6>You will hear from us shortly. Thank you</h6>
+                </form>
+            </div>
+
+        </section>
+        <!-- <section class="left-side">
+            <img src="https://images.unsplash.com/photo-1623874228601-f4193c7b1818?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80"
+                alt="picture" srcset="">
+        </section> -->
+    </main>
+</body>
+
+</html>
