@@ -1,0 +1,21 @@
+*{
+    background-color: aquamarine;
+}
+main{
+    display: table;
+    margin: 0 auto;
+}
+h2{
+    /* height: 100vh; */
+    text-align: center;
+    /* justify-content: center;
+    align-items: center; */
+    font-size: xx-large;
+}
+span{
+    margin-top: 10%;
+    display: table;
+    text-align: center;
+    width: 28px;
+    margin: auto;
+}
